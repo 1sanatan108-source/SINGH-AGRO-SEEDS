@@ -1,1 +1,102 @@
 
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chauhan Agro Seeds - अनूपपुर (म.प्र.)</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        :root { --primary-green: #2e7d32; --light-green: #e8f5e9; --accent-gold: #fbc02d; }
+        body { background-color: #f9f9f9; color: #333; line-height: 1.6; }
+        header { background: #fff; box-shadow: 0 2px 10px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 100; }
+        .nav-container { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; padding: 15px 20px; }
+        .logo { display: flex; align-items: center; gap: 10px; font-size: 24px; font-weight: bold; color: var(--primary-green); }
+        .hero { background: linear-gradient(rgba(46, 125, 50, 0.85), rgba(46, 125, 50, 0.85)), url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=1200&q=80') center/cover; color: white; text-align: center; padding: 80px 20px; }
+        .hero h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        .hero p { font-size: 1.2rem; max-width: 600px; margin: 0 auto 25px; }
+        .container { max-width: 1200px; margin: 40px auto; padding: 0 20px; }
+        .section-title { text-align: center; color: var(--primary-green); margin-bottom: 30px; font-size: 2rem; border-bottom: 3px solid var(--primary-green); display: inline-block; padding-bottom: 5px; }
+        .center-wrap { text-align: center; }
+        .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; }
+        .product-card { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.08); transition: 0.3s; border: 1px solid #eee; position: relative; }
+        .badge { position: absolute; top: 10px; right: 10px; background: var(--accent-gold); color: #000; padding: 4px 12px; font-weight: bold; border-radius: 20px; font-size: 0.8rem; }
+        .product-img { width: 100%; height: 200px; object-fit: cover; background: #eee; }
+        .product-info { padding: 20px; }
+        .product-info h3 { color: var(--primary-green); margin-bottom: 10px; }
+        .product-info p { color: #666; font-size: 0.95rem; margin-bottom: 15px; }
+        .action-buttons { position: fixed; bottom: 20px; right: 20px; display: flex; flex-direction: column; gap: 12px; z-index: 1000; }
+        .btn-float { display: flex; align-items: center; justify-content: center; width: 55px; height: 55px; border-radius: 50%; color: white; text-decoration: none; font-size: 24px; box-shadow: 0 4px 10px rgba(0,0,0,0.3); transition: 0.3s; }
+        .btn-whatsapp { background-color: #25D366; }
+        .btn-call { background-color: var(--primary-green); }
+        .btn { display: inline-block; background: var(--primary-green); color: white; padding: 10px 20px; text-decoration: none; border-radius: 6px; font-weight: bold; transition: 0.3s; border: none; cursor: pointer; }
+        .info-box { background: var(--light-green); border-radius: 12px; padding: 30px; margin-top: 50px; text-align: center; }
+        footer { background: #1b5e20; color: white; text-align: center; padding: 20px; margin-top: 60px; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-seedling"></i>
+                <span>Chauhan Agro Seeds</span>
+            </div>
+            <a href="tel:9993838087" class="btn"><i class="fas fa-phone"></i> कॉल करें</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>Chauhan Agro Seeds</h1>
+        <p>उत्कृष्ट गुणवत्ता वाले बीज और बेहतर पैदावार के लिए आपका विश्वसनीय साथी।</p>
+        <a href="https://wa.me/919993838087?text=नमस्ते,%20मुझे%20बीज%20के%20बारे%20में%20जानकारी%20चाहिए" class="btn" style="background: #25D366;"><i class="fab fa-whatsapp"></i> व्हाट्सएप पर संपर्क करें</a>
+    </section>
+
+    <div class="container">
+        <div class="center-wrap">
+            <h2 class="section-title">हमारे मुख्य बीज</h2>
+        </div>
+
+        <div class="product-grid">
+            <div class="product-card">
+                <span class="badge">विशेष/Featured</span>
+                <img src="https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&w=600&q=80" alt="Uday Tomato Seeds" class="product-img">
+                <div class="product-info">
+                    <h3>Uday Tomato (उदय टमाटर)</h3>
+                    <p>उच्च पैदावार, रोग प्रतिरोधक क्षमता और बेहतरीन रंग-रूप वाला प्रीमियम टमाटर बीज।</p>
+                    <a href="https://wa.me/919993838087?text=मुझे%20Uday%20Tomato%20बीज%20की%20जानकारी%20चाहिए" class="btn"><i class="fab fa-whatsapp"></i> आर्डर/जानकारी लें</a>
+                </div>
+            </div>
+
+            <div class="product-card" style="border: 2px dashed #ccc; background: #fafafa; display: flex; align-items: center; justify-content: center; text-align: center;">
+                <div class="product-info">
+                    <i class="fas fa-plus-circle" style="font-size: 3rem; color: #ccc; margin-bottom: 10px;"></i>
+                    <h3 style="color: #888;">नए उत्पाद जल्द आ रहे हैं</h3>
+                    <p>यहाँ आसानी से नए बीज और कृषि उत्पाद जोड़े जा सकते हैं।</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-box">
+            <i class="fas fa-map-marker-alt"></i>
+            <h2>दुकान का पता और संपर्क</h2>
+            <p style="font-size: 1.1rem; margin-top: 10px;"><strong>Chauhan Agro Seeds</strong></p>
+            <p>📍 अनूपपुर, मध्य प्रदेश (Anuppur, MP)</p>
+            <p>📞 संपर्क सूत्र: <strong>+91 9993838087</strong></p>
+        </div>
+    </div>
+
+    <div class="action-buttons">
+        <a href="https://wa.me/919993838087?text=नमस्ते,%20मुझे%20बीज%20के%20बारे%20में%20जानकारी%20चाहिए" class="btn-float btn-whatsapp" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="tel:9993838087" class="btn-float btn-call">
+            <i class="fas fa-phone"></i>
+        </a>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Chauhan Agro Seeds, Anuppur. सर्वाधिकार सुरक्षित।</p>
+    </footer>
+</body>
+</html>
