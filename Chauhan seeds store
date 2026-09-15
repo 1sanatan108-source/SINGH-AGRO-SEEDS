@@ -1,1 +1,123 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* पूरी वेबसाइट का स्टाइल */
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #fcf8f8; /* हल्का लाल-सफेद बैकग्राउंड */
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* स्टोर का मुख्य डब्बा */
+        .store-container {
+            background-color: white;
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border-top: 8px solid #d32f2f; /* टमाटर जैसा लाल रंग */
+        }
+
+        /* दुकान का नाम */
+        h1 {
+            color: #d32f2f; /* लाल रंग */
+            text-align: center;
+            margin-top: 0;
+        }
+
+        /* सब-हेडिंग्स */
+        h2 {
+            color: #37474f;
+            font-size: 20px;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 5px;
+        }
+
+        /* लिस्ट */
+        ul, ol {
+            padding-left: 20px;
+            line-height: 1.8;
+            color: #455a64;
+        }
+
+        /* टमाटर वाले प्रॉडक्ट का डब्बा */
+        .product-card {
+            background-color: white;
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        /* इमेज स्टाइल */
+        img {
+            border-radius: 8px;
+            margin: 15px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        /* पैराग्राफ */
+        p {
+            font-size: 16px;
+            color: #546e7a;
+            margin: 8px 0;
+        }
+
+        /* व्हाट्सएप ऑर्डर बटन */
+        .whatsapp-btn {
+            display: inline-block;
+            background-color: #25D366; /* व्हाट्सएप का हरा रंग */
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            margin-top: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- पहला डब्बा: चौहान सीड्स स्टोर की जानकारी -->
+    <div class="store-container">
+        <h1>Chauhan seeds store</h1>
+        <h2>सब्जी बीज के थोक एवं फुटकर व्यापारी</h2>
+        
+        <h2>टमाटर की किस्में (गोल/लंबे)</h2>
+        <ul>
+            <li>उदय टमाटर</li>
+            <li>साधना टमाटर</li>
+            <li>अलंकार टमाटर</li>
+            <li>प्रताप टमाटर</li>
+        </ul>
+
+        <h2>करेले की किस्में</h2>
+        <ol>
+            <li>Pct-999</li>
+            <li>Pct-111</li>
+        </ol>
+    </div>
+
+    <!-- दूसरा डब्बा: उदय टमाटर प्रॉडक्ट की जानकारी -->
+    <div class="product-card">
+        <h2>Uday Tomato</h2>
+        <!-- टमाटर की सुंदर फोटो -->
+        <img src="https://unsplash.com" width="200" alt="Tomato">
+        <p><strong>Packing:</strong> 10g, 50g</p>
+        <p><strong>MRP:</strong> ₹250</p>
+        
+        <!-- व्हाट्सएप बटन: यहाँ आप अपना नंबर भी डाल सकते हैं -->
+        <a class="whatsapp-btn" href="https://wa.meुझे उदय टमाटर का बीज चाहिए" target="_blank">
+            💬 व्हाट्सएप पर ऑर्डर करें
+        </a>
+    </div>
+
+</body>
+</html>
